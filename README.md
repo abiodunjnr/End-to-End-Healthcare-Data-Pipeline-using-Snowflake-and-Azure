@@ -2,7 +2,7 @@
 # ❄️ Snowflake Healthcare Admissions Pipeline — Azure + Blob Storage + Snowsight
 
 An **end-to-end data engineering and analytics pipeline** built on **Snowflake** with Azure services to transform a 2024 healthcare admissions dataset into actionable insights.
-This project covers **ingestion, transformation, governance, orchestration, storage design, and dashboarding** — all focused on leveraging Snowflake’s cloud data platform.
+This project covers **ingestion, transformation, governance, orchestration, storage design, and dashboarding** — all focused on leveraging Snowflake’s cloud data platform. Visualized both in Snowsight dashboards and Power BI.
 
 > **Note:** This is an educational analytics project using synthetic healthcare data. No clinical claims are made.
 
@@ -25,6 +25,7 @@ This project covers **ingestion, transformation, governance, orchestration, stor
 * **Data Platform:** Snowflake (staging, transformations, schema enforcement, masking policies).
 * **Governance:** Role-based access control (USER\_ROLE vs. ACCOUNTADMIN), masking of sensitive data.
 * **Serving:** Snowsight dashboards for direct analytics, replacing external BI.
+* **Power BI:** – Enterprise reporting connected live to Snowflake
 
 *(Architecture and pipeline screenshots are included in this repo.)*
 
